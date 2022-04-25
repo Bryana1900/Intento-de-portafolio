@@ -1,0 +1,275 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.css" integrity="sha512-5A8nwdMOWrSz20fDsjczgUidUBR8liPYU+WymTZP1lmY9G6Oc7HlZv156XqnsgNUzTyMefFTcsFH/tnJE/+xBg==" crossorigin="anonymous" referrerpolicy="no-referrer"
+    />
+    <link rel="stylesheet" href="/Css/index.css">
+    <title>Document</title>
+</head>
+
+<body>
+    <!-- Creo un div que sera el contenedor general-->
+    <div class="contenedor-general">
+        <!-- Creo un div de menu de navegacion dentro de la pagina-->
+        <div class="menu-navegacion">
+            <!--Creo los enlaces que se conectan a las diferentes secciones de la pagina-->
+            <ul>
+                <li><a href="#Home" onclick="toggleMenu();">Home</a></li>
+                <li><a href="#about" onclick="toggleMenu();">About</a></li>
+                <li><a href="#services" onclick="toggleMenu();">Service</a></li>
+                <li><a href="#project" onclick="toggleMenu();">Project</a></li>
+                <li><a href="#testimonials" onclick="toggleMenu();">Testimonial</a></li>
+                <li><a href="#contact" onclick="toggleMenu();">Contact</a></li>
+            </ul>
+        </div>
+        <!---->
+        <div class="main">
+            <div class="topbar">
+                <a href="#" class="logo">Portafolio</a>
+                <div class="toggle"><i class="fa fa-bars" aria-hidden="true"></i></div>
+            </div>
+            <!-- Creo la primera seccion donde estara la presentacion basica y redes sociales, le creo un id para identificar la seccion en la pagina y unirlo con el enlace de navegacion-->
+            <section class="presentacion" id="Home">
+                <!--Creo un div llamado contenedor-seccion, este div sera basico y se utilizara varias veces en diferentes secciones-->
+                <div class="contenedor-seccion">
+                    <div class="imgBx">
+                        <img src="../Img/Captura de pantalla (95).png" alt="Foto">
+                    </div>
+                    <h3>Bryan Aleman</h3>
+                    <p>Soy creativo desarrolando front end.</p>
+                    <a href="/Img/Cv_Bryan_A.pdf" class="btn">Descargar mi cv</a>
+                    <ul class="socialMedia">
+                        <li><a href="#"><i class="fa fa-facebook-square" aria-hidden="true"></i></a></li>
+                        <li><a href="#"><i class="fa fa-linkedin-square" aria-hidden="true"></i></i></a></li>
+                        <li><a href="#"><i class="fa fa-twitter" aria-hidden="true"></i></a></li>
+                        <li><a href="#"><i class="fa fa-instagram" aria-hidden="true"></i></a></li>
+                    </ul>
+                </div>
+            </section>
+            <!--Creo la siguiente seccion donde hablare sobre mi; Utilizo la palabra "Adjust" De manera general en las siguientes secciones-->
+            <section class="sobre-mi adjust" id="about">
+                <div class="titulo">
+                    <h2>Sobre Mi</h2>
+                </div>
+                <!--Creo un div llamado contenedor-seccion, este div sera basico y se utilizara varias veces en diferentes secciones-->
+                <div class="contenedor-seccion">
+                    <div class="textBox">
+                        <p>Hola! Mi nombre es Bryan soy una persona creativa, me encanta el desarrollo web, diseñar tratar de hacer cosas interesantes; Mi interes por el desarrollo web inicio cuando crear de maneras mas ineteresantes paginas web, empece
+                            aprender mucho sobre HTML Y CSS<br><br>Con el tiempo empece aprender de otras herramientas como lo es: Java, Node.js, MongoDb, JavaScript, Sql, Sqlserver, Mysql</p>
+                    </div>
+                    <div class="imgBx">
+                        <img src="/Img/WhatsApp Image 2022-01-10 at 7.03.01 PM.jpeg" alt="">
+                    </div>
+                </div>
+            </section>
+            <!--Creo la tercera seccion donde hablare sobre mis habilidades-->
+            <section class="services adjust" id="services">
+                <div class="titulo">
+                    <h2>Habilidades</h2>
+                    <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit.r odit fac?</p>
+                </div>
+                <!--Creo un div llamado contenedor-seccion, este div sera basico y se utilizara varias veces en diferentes secciones-->
+                <div class="contenedor-seccion">
+                    <div class="serviceBox">
+                        <img src="/Img/WhatsApp Image 2022-01-10 at 7.03.01 PM.jpeg" alt="">
+                        <h2>Web Desing</h2>
+                        <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Esse velit earum quas in. Quis excepturi perspiciatis autem dignissimos quod beatae aperiam minus, nisi possimus, molestiae impedit est distinctio cumque culpa.</p>
+                    </div>
+                    <div class="serviceBox">
+                        <img src="/Img/WhatsApp Image 2022-01-10 at 7.03.01 PM.jpeg" alt="">
+                        <h2>Web Desing</h2>
+                        <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Esse velit earum quas in. Quis excepturi perspiciatis autem dignissimos quod beatae aperiam minus, nisi possimus, molestiae impedit est distinctio cumque culpa.</p>
+                    </div>
+                    <div class="serviceBox">
+                        <img src="/Img/WhatsApp Image 2022-01-10 at 7.03.01 PM.jpeg" alt="">
+                        <h2>Web Desing</h2>
+                        <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Esse velit earum quas in. Quis excepturi perspiciatis autem dignissimos quod beatae aperiam minus, nisi possimus, molestiae impedit est distinctio cumque culpa.</p>
+                    </div>
+                    <div class="serviceBox">
+                        <img src="/Img/WhatsApp Image 2022-01-10 at 7.03.01 PM.jpeg" alt="">
+                        <h2>Web Desing</h2>
+                        <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Esse velit earum quas in. Quis excepturi perspiciatis autem dignissimos quod beatae aperiam minus, nisi possimus, molestiae impedit est distinctio cumque culpa.</p>
+                    </div>
+                    <div class="serviceBox">
+                        <img src="/Img/WhatsApp Image 2022-01-10 at 7.03.01 PM.jpeg" alt="">
+                        <h2>Web Desing</h2>
+                        <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Esse velit earum quas in. Quis excepturi perspiciatis autem dignissimos quod beatae aperiam minus, nisi possimus, molestiae impedit est distinctio cumque culpa.</p>
+                    </div>
+                    <div class="serviceBox">
+                        <img src="/Img/WhatsApp Image 2022-01-10 at 7.03.01 PM.jpeg" alt="">
+                        <h2>Web Desing</h2>
+                        <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Esse velit earum quas in. Quis excepturi perspiciatis autem dignissimos quod beatae aperiam minus, nisi possimus, molestiae impedit est distinctio cumque culpa.</p>
+                    </div>
+                </div>
+            </section>
+            <!--Creo la siguiente seccion para hablar de los proyectos que he creado, se utiliza la palabra "adjust"-->
+            <section class="project adjust" id="project">
+                <!--Se utiliza div llamada titulo para cada seccion-->
+                <div class="titulo">
+                    <h2>Proyectos</h2>
+                    <p>Aqui veran algunos mini proyectos que he creado</p>
+                </div>
+                <!--Creo un div llamado contenedor-seccion, este div sera basico y se utilizara varias veces en diferentes secciones-->
+                <div class="contenedor-seccion">
+                    <div class="workBx">
+                        <div class="imgBx">
+                            <img src="/Img/WhatsApp Image 2022-01-10 at 7.03.01 PM.jpeg" alt="">
+                        </div>
+                        <div class="textBx">
+                            <h3>Proyecto 01</h3>
+                        </div>
+                    </div>
+                    <div class="workBx">
+                        <div class="imgBx">
+                            <img src="/Img/WhatsApp Image 2022-01-10 at 7.03.01 PM.jpeg" alt="">
+                        </div>
+                        <div class="textBx">
+                            <h3>Proyecto 01</h3>
+                        </div>
+                    </div>
+                    <div class="workBx">
+                        <div class="imgBx">
+                            <img src="/Img/WhatsApp Image 2022-01-10 at 7.03.01 PM.jpeg" alt="">
+                        </div>
+                        <div class="textBx">
+                            <h3>Proyecto 01</h3>
+                        </div>
+                    </div>
+                    <div class="workBx">
+                        <div class="imgBx">
+                            <img src="/Img/WhatsApp Image 2022-01-10 at 7.03.01 PM.jpeg" alt="">
+                        </div>
+                        <div class="textBx">
+                            <h3>Proyecto 01</h3>
+                        </div>
+                    </div>
+                    <div class="workBx">
+                        <div class="imgBx">
+                            <img src="/Img/WhatsApp Image 2022-01-10 at 7.03.01 PM.jpeg" alt="">
+                        </div>
+                        <div class="textBx">
+                            <h3>Proyecto 01</h3>
+                        </div>
+                    </div>
+                    <div class="workBx">
+                        <div class="imgBx">
+                            <img src="/Img/WhatsApp Image 2022-01-10 at 7.03.01 PM.jpeg" alt="">
+                        </div>
+                        <div class="textBx">
+                            <h3>Proyecto 01</h3>
+                        </div>
+                    </div>
+                    <div class="workBx">
+                        <div class="imgBx">
+                            <img src="/Img/WhatsApp Image 2022-01-10 at 7.03.01 PM.jpeg" alt="">
+                        </div>
+                        <div class="textBx">
+                            <h3>Proyecto 01</h3>
+                        </div>
+                    </div>
+                    <div class="workBx">
+                        <div class="imgBx">
+                            <img src="/Img/WhatsApp Image 2022-01-10 at 7.03.01 PM.jpeg" alt="">
+                        </div>
+                        <div class="textBx">
+                            <h3>Proyecto 01</h3>
+                        </div>
+                    </div>
+                    <div class="workBx">
+                        <div class="imgBx">
+                            <img src="/Img/WhatsApp Image 2022-01-10 at 7.03.01 PM.jpeg" alt="">
+                        </div>
+                        <div class="textBx">
+                            <h3>Proyecto 01</h3>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <section class="testimonials adjust" id="testimonials">
+                <!--Se utiliza div llamada titulo para cada seccion-->
+                <div class="titulo">
+                    <h2>Testimonios</h2>
+                    <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit</p>
+                </div>
+                <div class="contenedor-seccion">
+                    <div class="testimonialsBox">
+                        <div class="imgBx">
+                            <img src="/Img/WhatsApp Image 2022-01-10 at 7.03.01 PM.jpeg" alt="">
+                        </div>
+                        <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Similique, animi qui. Consequatur blanditiis ut voluptate sit, voluptatum delectus laboriosam corporis voluptatem nostrum quos cum inventore? Temporibus ducimus esse quo
+                            fugit!
+                        </p>
+                        <h4>Someone Famouse <br><span>Website Designer</span></h4>
+                    </div>
+                    <div class="testimonialsBox">
+                        <div class="imgBx">
+                            <img src="/Img/WhatsApp Image 2022-01-10 at 7.03.01 PM.jpeg" alt="">
+                        </div>
+                        <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Similique, animi qui. Consequatur blanditiis ut voluptate sit, voluptatum delectus laboriosam corporis voluptatem nostrum quos cum inventore? Temporibus ducimus esse quo
+                            fugit!
+                        </p>
+                        <h4>Someone Famouse <br><span>Website Designer</span></h4>
+                    </div>
+                    <div class="testimonialsBox">
+                        <div class="imgBx">
+                            <img src="/Img/WhatsApp Image 2022-01-10 at 7.03.01 PM.jpeg" alt="">
+                        </div>
+                        <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Similique, animi qui. Consequatur blanditiis ut voluptate sit, voluptatum delectus laboriosam corporis voluptatem nostrum quos cum inventore? Temporibus ducimus esse quo
+                            fugit!
+                        </p>
+                        <h4>Someone Famouse <br><span>Website Designer</span></h4>
+                    </div>
+                    <div class="testimonialsBox">
+                        <div class="imgBx">
+                            <img src="/Img/WhatsApp Image 2022-01-10 at 7.03.01 PM.jpeg" alt="">
+                        </div>
+                        <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Similique, animi qui. Consequatur blanditiis ut voluptate sit, voluptatum delectus laboriosam corporis voluptatem nostrum quos cum inventore? Temporibus ducimus esse quo
+                            fugit!
+                        </p>
+                        <h4>Someone Famouse <br><span>Website Designer</span></h4>
+                    </div>
+                </div>
+            </section>
+            <!--Creo la ultima seccion donde estara la forma en que me puedan enviar un mensaje para contactarme-->
+            <section class="contact adjust" id="contact">
+                <!--Se utiliza div llamada titulo para cada seccion-->
+                <div class="titulo">
+                    <h2>Contacto</h2>
+                </div>
+                <div class="contactForm">
+                    <div class="row">
+                        <input type=" text" name="" placeholder="Primer nombre">
+                        <input type=" text" name="" placeholder="Segundo nombre">
+                    </div>
+
+                    <div class="row">
+                        <input type=" text" name="" placeholder="Gmail">
+                        <input type=" text" name="" placeholder="Celular ">
+                    </div>
+
+                    <div class="row2">
+                        <textarea placeholder="Mensaje" name="" id="" cols="30" rows="10"></textarea>
+                    </div>
+
+                    <div class="row2">
+                        <input type="submit" value="Send"></input>
+                    </div>
+                </div>
+            </section>
+
+            <div class="copyrigth">
+                <p>Copyright 2022 Bryan. All righ reserved</p>
+            </div>
+
+        </div>
+    </div>
+    <!--Creo un scrip para realizar diferentes funciones en javaScript-->
+    <script src="/Js/index.js"></script>
+</body>
+
+</html>
